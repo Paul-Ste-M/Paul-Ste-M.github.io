@@ -16,12 +16,12 @@ h1 {
 width: 30%;
 margin: 10px;
 padding: 20px 10px;
-background: rgb(0, 0, 0); /* pick a color */
+background: rgb(255, 255, 255); /* pick a color */
 border-radius: 25%;
 }
 .project img{
-    width: 300px;
-    height: 300px;
+    width: 30px;
+    height: 30px;
     margin: 10px;
     border: 2px solid rgb(218, 153, 196); /* choose a color */
     display: block;
