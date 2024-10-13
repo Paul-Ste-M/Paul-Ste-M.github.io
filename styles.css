@@ -20,8 +20,8 @@ background: rgb(255, 255, 255); /* pick a color */
 border-radius: 25%;
 }
 .project img{
-    width: 30px;
-    height: 30px;
+    width: 300px;
+    height: 300px;
     margin: 10px;
     border: 2px solid rgb(218, 153, 196); /* choose a color */
     display: block;
