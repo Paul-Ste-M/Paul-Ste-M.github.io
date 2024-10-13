@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: blanchedalmond;
+    color: rgb(200, 108, 223);
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ border-radius: 25%;
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(218, 153, 196); /* choose a color */
+    border: 2px solid rgb(200, 108, 223); /* choose a color */
     display: block;
     margin: auto;
     }
