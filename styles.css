@@ -1,13 +1,17 @@
 body {
-    background-color: thistle;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-h1 {
-    color: rgb(200, 108, 223);
+    background: #f8feff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    }
+    h1 {
     text-align: center;
-}
-
+    color: #0ee0d6;
+    }
+.about {
+    background: #0ee0d6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    }
 .projects {
      display:flex; 
      flex-wrap:wrap; 
@@ -20,10 +24,10 @@ background: rgb(255, 255, 255); /* pick a color */
 border-radius: 25%;
 }
 .project img{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     margin: 10px;
-    border: 2px solid rgb(200, 108, 223); /* choose a color */
+    border: 2px solid #0ee0d6; /* choose a color */
     display: block;
     margin: auto;
     }
@@ -34,7 +38,7 @@ border-radius: 25%;
         }
         .project p { /* change the appearance of paragraph tags inside .project divs */
         text-align: center;
-        margin: 15px;
+        margin: 25px;
         }
 
         about{
@@ -44,15 +48,16 @@ border-radius: 25%;
             margin-left: 100px;
             justify-content: center;
             }
-            .about p {
-            width:50%;
-            text-align: center;
-            margin: auto;
-            line-height: 125%;
-            }
+    
             .about img {
             width: 150px;
             height: 200px;
             border-radius: 25%;
             border: 2px solid rgb(255, 255, 255);
             }
+            .about p {
+                width:50%;
+                text-align: center;
+                margin: auto;
+                line-height: 125%;
+                }
